@@ -2,6 +2,6 @@ package module
 
 import "fmt"
 
-func HelloWorld() {
-	fmt.Println("Hola mundo desde Platzi")
+func HelloWorld(yourName string) {
+	fmt.Printf("Hola mundo %s, este es mi primer modulo", yourName)
 }
